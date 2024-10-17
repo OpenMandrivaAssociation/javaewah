@@ -9,7 +9,7 @@ Summary:        A word-aligned compressed variant of the Java bitset class
 
 
 License:        ASL 2.0
-URL:            http://code.google.com/p/javaewah/
+URL:            https://code.google.com/p/javaewah/
 Source0:        https://github.com/lemire/%{name}/archive/%{commit}/%{name}-%{version}-%{shortcommit}.tar.gz
 
 BuildArch:      noarch
