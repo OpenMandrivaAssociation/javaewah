@@ -3,8 +3,8 @@
 %global shortcommit %(c=%{commit}; echo ${c:0:7})
 
 Name:           javaewah
-Version:        0.7.9
-Release:        2.0%{?dist}
+Version:        1.1.13
+Release:        1%{?dist}
 Summary:        A word-aligned compressed variant of the Java bitset class
 
 
@@ -38,7 +38,7 @@ API documentation for %{name}.
 
 
 %prep
-%setup -qn %{name}-%{commit}
+%setup -qn %{name}-%{commit} -n javaewah-19ea785bb7d5d37eaaf39a52bda3a3f32385577b
 
 %pom_remove_plugin org.apache.maven.plugins:maven-gpg-plugin
 
